@@ -14,7 +14,7 @@ class Solution {
         List<Integer> res = new LinkedList<>();
         int carry = 0;
         int n = num.length;
-        int index = n - 1; // use to record the index of array num that currently used in calculation
+        int index = n - 1; // record the index of array num that currently used in calculation
         int dk = 0; // record the digit from k
         int dn = 0; // record the digit from num
 
